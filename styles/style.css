@@ -28,7 +28,7 @@
   color:  #ffffff;    
 }
 
-.logo a {
+.logo .logo_body {
   text-decoration: none;
   color:  #d0ca17;  
   font-size:  26.18px;
@@ -37,7 +37,7 @@
 
 }
 
-.logo a::before {
+.logo .logo_body::before {
   content: "MY";
   margin-right: 1px;
   margin-left: 51px;   
@@ -680,3 +680,24 @@ footer p::before {
 .btn-top:hover{
   background-color: #27ae60;
 }
+//social
+/*.social{
+  position: absolute;
+  top: 14px;
+  left: 215px;
+}*/
+.social .insta, .social .vk{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.insta{
+  background-image: url(../images/icons8-instagram.svg);
+}
+.vk{
+  background-image: url(../images/icons8-вконтакте.svg);
+}
+//social

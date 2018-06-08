@@ -20,4 +20,8 @@ $(document).ready(function() {
    })
      return false;
    });
- 
+$(document).ready(function() {
+  $('.social').css('position', 'absolute');
+  $('.social').css('left', '214px');
+  $('.social').css('top', '15px');
+ });
