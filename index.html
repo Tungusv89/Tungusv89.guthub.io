@@ -310,11 +310,11 @@
 			  <h1 class="title">Контакты</h1>	    
 			  <p>Lorem ipsum dolor sit amet, concectetur adipisicing elit, sed do eiustmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	    </div>			
-			<form class="contacts-info">
-			  <input class="name" type="text" name="name" placeholder="NAME">
-			  <input class="address" type="text" name="email" placeholder="EMAIL ADDRESS">
-			  <input class="message" type="text" name="message" placeholder="MESSAGE"> 
-			  <input class="message-two" type="text" name="message" placeholder="">
+			<form action="send.php" method="post" class="contacts-info">
+			  <input class="name" type="text" name="name" placeholder="Укажите Ваше имя" required>
+			  <input class="address" type="text" name="email" placeholder="Укажите Вашу почту"required>
+			  <input class="message" type="text" name="message" placeholder="Введите текст"> 
+			  <input class="message-two" type="text" name="phone" placeholder="Укажите ваш телефон"required>
 			  <input class="form" type="submit" value="submit">	
 			</form>
 	  </section>
